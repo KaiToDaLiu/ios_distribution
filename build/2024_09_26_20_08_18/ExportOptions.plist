@@ -9,7 +9,7 @@
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://KaiToDaLiu.github.io/ios_distribution/kaito.ipa</string>
+		<string>https://KaiToDaLiu.github.io/ios_distribution/build/2024_09_26_20_08_18/kaito.ipa</string>
 		<key>displayImageURL</key>
 		<string>https://KaiToDaLiu.github.io/ios_distribution/57.png</string>
 		<key>fullSizeImageURL</key>
