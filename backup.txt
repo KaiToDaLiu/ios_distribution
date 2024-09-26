@@ -1,2 +1,32 @@
-<a id<!-- ="clickMe"
-            href="itms-services:///?action=download-manifest&url=https://KaiToDaLiu.github.io/ios_distribution/manifest.plist">Build: 2024-09-26 11:00</a> -->
+<a id="clickMe" href="itms-services:///?action=download-manifest&url=https://KaiToDaLiu.github.io/ios_distribution/manifest.plist">Build: 2024-09-26 11:00</a>
+
+itms-services:///?action=download-manifest&url=https://KaiToDaLiu.github.io/ios_distribution/manifest.plist
+
+
+Xcode build 时填入的 App URL:
+https://KaiToDaLiu.github.io/ios_distribution/kaito.ipa
+
+https://KaiToDaLiu.github.io/ios_distribution/build/2024_09_26_
+
+https://KaiToDaLiu.github.io/ios_distribution/build/2024_09_26_14_04_59/kaito.ipa
+
+
+1-自动. 
+拿到项目中 build_date 中的时间
+
+2-手动. 
+Archieve 时要填入相应的 ipa 的 url 
+https://KaiToDaLiu.github.io/ios_distribution/build/{时间}/kaito.ipa
+比如：
+https://KaiToDaLiu.github.io/ios_distribution/build/2024_09_26_14_04_59/kaito.ipa
+图片也要手动填：
+https://KaiToDaLiu.github.io/ios_distribution/57.png
+https://KaiToDaLiu.github.io/ios_distribution/512.png
+然后把包export到 /Users/daliu_kt/Desktop/job/GitHub/ios_distribution/build
+
+3-自动. 
+把这个包的文件夹名字改一下，改成和 build_date 一致
+
+4. 上传到 git
+
+
