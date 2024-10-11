@@ -8,6 +8,7 @@
 import Foundation
 
 class Build {
+    // Change here!!!
     let build_date_path = "/Users/daliu_kt/Desktop/job/GitHub/KaiToApp/build/build_date.txt"
     let distribution_path = "/Users/daliu_kt/Desktop/job/GitHub/ios_distribution/build/"
     var buildDate: String?

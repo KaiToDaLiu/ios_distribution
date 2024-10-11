@@ -52,6 +52,7 @@ Input Numbers:
                     let manifestFullPath = "itms-services:///?action=download-manifest&url=https://KaiToDaLiu.github.io/ios_distribution/build/" + manifestName
                     print("=============================================")
                     print(manifestFullPath)
+                    // Change here!!!
                     let destPath = "/Users/daliu_kt/Desktop/job/GitHub/ios_distribution/build/" + date + "/qrcode.jpg"
                     QRCode().saveQRImage(from: manifestFullPath, path: destPath)
                     print("insert div:")
