@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4E83F82A2CA5335E002529E1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E83F8292CA5335E002529E1 /* main.swift */; };
-		4E83F8312CA53380002529E1 /* Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E83F8302CA53380002529E1 /* Build.swift */; };
 		4E83F8332CA5400C002529E1 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E83F8322CA5400C002529E1 /* QRCode.swift */; };
+		4E8415562CBA42E900E70D04 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8415552CBA42E900E70D04 /* Info.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +27,8 @@
 /* Begin PBXFileReference section */
 		4E83F8262CA5335E002529E1 /* build */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = build; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E83F8292CA5335E002529E1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		4E83F8302CA53380002529E1 /* Build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Build.swift; sourceTree = "<group>"; };
 		4E83F8322CA5400C002529E1 /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		4E8415552CBA42E900E70D04 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				4E83F8292CA5335E002529E1 /* main.swift */,
-				4E83F8302CA53380002529E1 /* Build.swift */,
 				4E83F8322CA5400C002529E1 /* QRCode.swift */,
+				4E8415552CBA42E900E70D04 /* Info.swift */,
 			);
 			path = build;
 			sourceTree = "<group>";
@@ -126,7 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E83F8312CA53380002529E1 /* Build.swift in Sources */,
+				4E8415562CBA42E900E70D04 /* Info.swift in Sources */,
 				4E83F82A2CA5335E002529E1 /* main.swift in Sources */,
 				4E83F8332CA5400C002529E1 /* QRCode.swift in Sources */,
 			);
