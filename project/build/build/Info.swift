@@ -33,10 +33,8 @@ class Info {
                 text = text.trimmingCharacters(in: .whitespacesAndNewlines) // Debug_2024_09_26_14_56_09
                 self.ipaDirName = text
                 let arr = text.components(separatedBy: "_")
-                if arr.count == 7 {
-                    // self.buildMode = arr[0] // Debug or Release
-                    self.formatDate = arr[0] + "-" + arr[1] + "-" + arr[2] + " " + arr[3] + ":" + arr[4] + ":" + arr[5] // 2024-09-26 14:56:09
-                }
+                assert(arr.count == 6)
+                self.formatDate = arr[0] + "-" + arr[1] + "-" + arr[2] + " " + arr[3] + ":" + arr[4] + ":" + arr[5] // 2024-09-26 14:56:09
             } catch {
                 print("Error reading file: \(error)")
             }
@@ -67,8 +65,9 @@ class Info {
         print("insert div:")
         let div = """
 <div class="vertical">
-    <img src="build/\(ipaDirName)/qrcode.jpg" alt="scan it with iphone camera">\(formatDate)
-</div>
+                <img src="build/\(ipaDirName)/qrcode.jpg" alt="scan it with iphone camera">
+                \(formatDate)
+            </div>
 """
         print(div)
     }
