@@ -53,6 +53,7 @@ class Info {
         print(gitPageHome + "57.png")
         print(gitPageHome + "512.png")
         print("Rename file name after export: " + ipaDirName)
+        print("Scan download url: https://kaitodaliu.github.io/ios_distribution/index.html")
     }
     
     public func logHTML() {
