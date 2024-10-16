@@ -1,21 +1,17 @@
 #!/bin/bash
 
 # .xcproject的名字，必填
-
 workspace_name="./KaiToApp.xcworkspace"
 
 # 指定项目的scheme名称（也就是工程的scheme名称），必填
-
 scheme_name="KaiToApp"
 
-# 指定要打包编译的方式 : Release,Debug。一般用Release。必填
-
+# 指定要打包编译的方式 : Release, Debug。一般用Release。必填
 build_configuration=Release
 
 bundle_version=1.0.0
 
 # MacOS 系统 SDK 版本
-
 iphoneos_version="iphoneos17.5"
 
 # method，打包的方式。方式分别为 app-store，ad-hoc，enterprise 和 development
@@ -23,12 +19,12 @@ iphoneos_version="iphoneos17.5"
 # (跟method对应的)mobileprovision文件名，需要先双击安装.mobileprovision文件.手动管理Profile时必填
 # 项目的bundleId，手动管理Profile时必填
 
-method="app-store"
-bundle_identifier="ai.kaito.KaiToApp"
+method="ad-hoc"
+bundle_identifier="ai.kaito.kaito"
     
 #if [ ${build_configuration} == 'Release' ]; then
-#	method="app-store"
-#	bundle_identifier="ai.kaito.KaiToApp"
+#	method="ad-hoc"
+#	bundle_identifier="ai.kaito.kaito"
 #	noti_bundle_identifier="com.pinganfu.xxx.youqian.XXXNotificationService"
 #	mobileprovision_name="83acf85d-ccbf-46d8-bf02-3ceb530d55a1"
 #	mobileprovision_extension_name="ab704eb1-d5d3-424e-879e-c32b7eed32ec"
