@@ -8,9 +8,9 @@ bundle_version="1.0.0"
 iphoneos_version="iphoneos"
 project_dir=$(pwd)
 export_path="$project_dir/.build"
-export_output_path="$export_path/output"
+export_output_path="$export_path/output" # 导出路径：当前目录/output/
 export_archive_path="$export_path/$scheme_name.xcarchive"
-export_ipa_path="$export_output_path/Kaito-${bundle_short_version}.ipa"
+export_ipa_path="$export_output_path/Kaito-${bundle_short_version}.ipa" # 导出 ipa 路径
 export_options_plist_path="$export_path/ExportOptions.plist"
 export_dsym_path="$export_output_path/dSYMs"  # 新增 dSYM 输出路径
 
