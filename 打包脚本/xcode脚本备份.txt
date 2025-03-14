@@ -1,0 +1,25 @@
+# Type a script or drag a script file from your workspace to insert its path.
+# Get the current date and time in the desired format (e.g., YYYY-MM-DD HH:mm:ss)
+# echo "SRCROOT is: $SRCROOT"
+
+BUILD_DATE=$(date +"%Y_%m_%d_%H_%M_%S")
+
+# Define the path to the file where you want to save the build time
+OUTPUT_FILE="${SRCROOT}/build/build_date.txt"
+
+# Write the build date to the file
+echo "$BUILD_DATE" > "$OUTPUT_FILE"
+
+# Debug or release environment
+# BUILD_MODE=""
+# if [ "$CONFIGURATION" == "Debug" ]; then
+#     BUILD_MODE="Debug"
+# else
+#     BUILD_MODE="Release"
+# fi
+
+# input_text=$BUILD_MODE'_'$BUILD_DATE
+# echo "$input_text" > "$OUTPUT_FILE"
+
+# Log the build date (optional, for debugging purposes)
+# echo "Build date written to $OUTPUT_FILE"
