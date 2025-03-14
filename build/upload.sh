@@ -21,8 +21,8 @@ upload_gitpage() {
 	#-- KaiToApp.ipa
 	#-- Packaging.log
 	#-- dSYMs
-	# cp ./.build/output/* ${MAC_TIME_DIR}
-	cp ./* ${MAC_TIME_DIR} # TODO: - Change here!!!!!!
+	cp ./.build/output/* ${MAC_TIME_DIR}
+	# cp ./* ${MAC_TIME_DIR} # TODO: - Change here!!!!!!
 	echo "${project_dir} --> ${MAC_TIME_DIR}"
 
 	echo "----------------------------------"
@@ -47,7 +47,21 @@ upload_gitpage() {
 	echo "----------------------------------"
 	echo "👉 5. 提交到 GitHub Pages"
 	echo "----------------------------------"
-	cd ${ios_distribution}
+    # 补：为了防止 git 库过大而 push 失败，把之前的先删除掉
+    # 找到以 2025_ 开头的文件夹并删除
+    # find "${ios_distribution}/build" -type d -name "2025_*" -print0 | xargs -0 rm -rf
+    # 寻找以 2025_ 开头的前两个目录，并删除，如果符合条件的目录个数小于2，则不删除
+    cd "${ios_distribution}/build"
+    dirs=$(ls -d 2025_* 2>/dev/null)
+    count=$(echo "$dirs" | wc -l)
+    if [ "$count" -ge 2 ]; then
+        echo "$dirs" | head -n 2 | xargs rm -r
+        echo "删除以2025_开头的老目录：2个"
+    else
+        echo "不需要删除目录"
+    fi
+    
+    cd ${ios_distribution}
     echo "提交代码 ${ios_distribution} --> ${GIT_PAGE_HOME}"
 	pwd
 	git add *
@@ -59,16 +73,12 @@ upload_gitpage() {
 	echo "----------------------------------"
 	cd ${project_dir}
 	pwd
-	# echo DESC_INFO:${BASE_URL}/qrcode.png,${BASE_URL}/app-debug.apk
-	# echo "DESC_INFO:${MAC_TIME_DIR}/qrcode.jpg,${MANIFEST_FULL_PATH}"
-#    cp ${MAC_TIME_DIR}/qrcode.jpg ./qrcode.jpg # 否则 img src 不显示
-#    echo "DESC_INFO:./qrcode.jpg,${MANIFEST_FULL_PATH}"
-#    # echo "DESC_INFO:${project_dir}/qrcode.jpg,${MANIFEST_FULL_PATH}"
-#	# <img src ="\1" height="140" width="140" ><a href='https://www.pgyer.com/xxxx'>Install Online</a>
-#    # <img src ="\1" height="140" width="140" ><a href="\2">Install Online</a>
-    
+
     QR_URL_PATH="${GIT_PAGE_HOME}/build/${CURRENT_TIME}/qrcode.jpg"
     echo "DESC_INFO:${QR_URL_PATH},${MANIFEST_FULL_PATH}"
+    
+    # Regular expression: DESC_INFO:(.*),(.*)
+    # Description: <img src ="\1" height="140" width="140" /><br/><a href="\2">Use camera scan and install</a>
 }
 
 upload_gitpage
