@@ -61,11 +61,12 @@ upload_gitpage() {
 	pwd
 	# echo DESC_INFO:${BASE_URL}/qrcode.png,${BASE_URL}/app-debug.apk
 	echo "DESC_INFO:${MAC_TIME_DIR}/qrcode.jpg,${MANIFEST_FULL_PATH}"
-    cp ${MAC_TIME_DIR}/qrcode.jpg ./qrcode.jpg # 否则 img src 不显示
-    echo "DESC_INFO:./qrcode.jpg,${MANIFEST_FULL_PATH}"
-    # echo "DESC_INFO:${project_dir}/qrcode.jpg,${MANIFEST_FULL_PATH}"
-	# <img src ="\1" height="140" width="140" ><a href='https://www.pgyer.com/xxxx'>Install Online</a>
-    # <img src ="\1" height="140" width="140" ><a href="\2">Install Online</a>
+#    cp ${MAC_TIME_DIR}/qrcode.jpg ./qrcode.jpg # 否则 img src 不显示
+#    echo "DESC_INFO:./qrcode.jpg,${MANIFEST_FULL_PATH}"
+#    # echo "DESC_INFO:${project_dir}/qrcode.jpg,${MANIFEST_FULL_PATH}"
+#	# <img src ="\1" height="140" width="140" ><a href='https://www.pgyer.com/xxxx'>Install Online</a>
+#    # <img src ="\1" height="140" width="140" ><a href="\2">Install Online</a>
+    
     QR_URL_PATH="${GIT_PAGE_HOME}/build/${CURRENT_TIME}/qrcode.jpg"
     echo "DESC_INFO:${QR_URL_PATH},${MANIFEST_FULL_PATH}"
 }
