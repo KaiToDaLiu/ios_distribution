@@ -47,8 +47,8 @@ upload_gitpage() {
 	# echo "----------------------------------"
 	# echo "4. 提交到 GitHub"
 	# echo "----------------------------------"
-	cd ${ios_distribution_build}
-	cd ../
+	cd ${ios_distribution}
+    echo "提交代码 ${ios_distribution}"
 	pwd
 	git add *
 	git commit -m "add new build ${CURRENT_TIME}"
@@ -64,9 +64,10 @@ upload_gitpage() {
     cp ${MAC_TIME_DIR}/qrcode.jpg ./qrcode.jpg # 否则 img src 不显示
     echo "DESC_INFO:./qrcode.jpg,${MANIFEST_FULL_PATH}"
     # echo "DESC_INFO:${project_dir}/qrcode.jpg,${MANIFEST_FULL_PATH}"
-
 	# <img src ="\1" height="140" width="140" ><a href='https://www.pgyer.com/xxxx'>Install Online</a>
     # <img src ="\1" height="140" width="140" ><a href="\2">Install Online</a>
+    QR_URL_PATH="${GIT_PAGE_HOME}/build/${CURRENT_TIME}/qrcode.jpg"
+    echo "DESC_INFO:${QR_URL_PATH},${MANIFEST_FULL_PATH}"
 }
 
 upload_gitpage
