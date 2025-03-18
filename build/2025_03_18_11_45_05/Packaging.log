@@ -1,0 +1,1175 @@
+2025-03-18 03:44:59 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x113b34710; archive(resolved)="<IDEArchive: 0x600003e57800>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSAdHoc: 0x600001700860>", team(resolved)="<IDEProvisioningBasicTeam: 0x6000014ce9a0; teamID='358UF6MCG5', teamName='(null)'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x113b34710; archive = "<IDEArchive: 0x600003e57800>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600001700860>", team="<IDEProvisioningBasicTeam: 0x6000014ce9a0; teamID='358UF6MCG5', teamName='(null)'>">
+	<IDEDistributionProcessingPipelineContext: 0x14d03fc80; archive = "<IDEArchive: 0x600003e57800>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600001700860>", team="<IDEProvisioningBasicTeam: 0x6000014ce9a0; teamID='358UF6MCG5', teamName='(null)'>">
+	<IDEDistributionContext: 0x14d0579d0; archive = "<IDEArchive: 0x600003e57800>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600001700860>", team="<IDEProvisioningBasicTeam: 0x6000014ce9a0; teamID='358UF6MCG5', teamName='(null)'>">
+	<IDEDistributionContext: 0x14b758320; archive = "<IDEArchive: 0x600003e57800>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600001700860>", team="<IDEProvisioningBasicTeam: 0x6000014ce9a0; teamID='358UF6MCG5', teamName='(null)'>">
+	<IDEDistributionContext: 0x14d02b900; archive = "<IDEArchive: 0x600003e57800>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600001700860>", team="<IDEProvisioningBasicTeam: 0x6000014ce9a0; teamID='358UF6MCG5', teamName='(null)'>">
+	<IDEDistributionContext: 0x14b758110; archive = "<IDEArchive: 0x600003e57800>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600001700860>", team="<IDEProvisioningBasicTeam: 0x6000014ce9a0; teamID='358UF6MCG5', teamName='(null)'>">
+	<IDEDistributionContext: 0x14b71a080; archive = "<IDEArchive: 0x600003e57800>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600001700860>", team="<IDEProvisioningBasicTeam: 0x6000014ce9a0; teamID='358UF6MCG5', teamName='(null)'>">
+	<IDEDistributionContext: 0x14b7513e0; archive = "<IDEArchive: 0x600003e57800>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600001700860>", team="<IDEProvisioningBasicTeam: 0x6000014ce9a0; teamID='358UF6MCG5', teamName='(null)'>">
+	<IDEDistributionContext: 0x14b6f1620; archive = "<IDEArchive: 0x600003e57800>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600001700860>", team="<IDEProvisioningBasicTeam: 0x6000014ce9a0; teamID='358UF6MCG5', teamName='(null)'>">
+	<IDEDistributionContext: 0x14b6f2040; archive = "<IDEArchive: 0x600003e57800>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600001700860>", team="(null)">
+	<IDEDistributionContext: 0x14b73d300; archive = "<IDEArchive: 0x600003e57800>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600001700860>", team="(null)">
+	<IDEDistributionContext: 0x14d03e270; archive = "<IDEArchive: 0x600003e57800>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600001700860>", team="(null)">
+	<IDEDistributionContext: 0x14d035930; archive = "<IDEArchive: 0x600003e57800>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x600001700860>", team="(null)">
+	<IDEDistributionContext: 0x14d124a80; archive = "<IDEArchive: 0x600003e57800>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x113b34710>
+2025-03-18 03:44:59 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2025-03-18 03:44:59 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2025-03-18 03:44:59 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app' '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app'
+2025-03-18 03:44:59 +0000  >>> Copying /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app 
+2025-03-18 03:44:59 +0000  copying file ./_CodeSignature/CodeResources ... 
+2025-03-18 03:44:59 +0000  26245 bytes for ./_CodeSignature/CodeResources
+2025-03-18 03:44:59 +0000  copying file ./AppIcon60x60@2x.png ... 
+2025-03-18 03:44:59 +0000  2905 bytes for ./AppIcon60x60@2x.png
+2025-03-18 03:44:59 +0000  copying file ./signIn.gif ... 
+2025-03-18 03:44:59 +0000  364856 bytes for ./signIn.gif
+2025-03-18 03:44:59 +0000  copying file ./swift-crypto_Crypto.bundle/PrivacyInfo.xcprivacy ... 
+2025-03-18 03:44:59 +0000  398 bytes for ./swift-crypto_Crypto.bundle/PrivacyInfo.xcprivacy
+2025-03-18 03:44:59 +0000  copying file ./swift-crypto_Crypto.bundle/Info.plist ... 
+2025-03-18 03:44:59 +0000  685 bytes for ./swift-crypto_Crypto.bundle/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./loading.gif ... 
+2025-03-18 03:44:59 +0000  96944 bytes for ./loading.gif
+2025-03-18 03:44:59 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2025-03-18 03:44:59 +0000  2130 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2025-03-18 03:44:59 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2025-03-18 03:44:59 +0000  924 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2025-03-18 03:44:59 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2025-03-18 03:44:59 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./swift-nio-ssl_NIOSSL.bundle/PrivacyInfo.xcprivacy ... 
+2025-03-18 03:44:59 +0000  398 bytes for ./swift-nio-ssl_NIOSSL.bundle/PrivacyInfo.xcprivacy
+2025-03-18 03:44:59 +0000  copying file ./swift-nio-ssl_NIOSSL.bundle/Info.plist ... 
+2025-03-18 03:44:59 +0000  687 bytes for ./swift-nio-ssl_NIOSSL.bundle/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./README.md ... 
+2025-03-18 03:44:59 +0000  3539 bytes for ./README.md
+2025-03-18 03:44:59 +0000  copying file ./KaiToApp ... 
+2025-03-18 03:44:59 +0000  14694112 bytes for ./KaiToApp
+2025-03-18 03:44:59 +0000  copying file ./Assets.car ... 
+2025-03-18 03:44:59 +0000  4067560 bytes for ./Assets.car
+2025-03-18 03:44:59 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2025-03-18 03:44:59 +0000  3565 bytes for ./AppIcon76x76@2x~ipad.png
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:44:59 +0000  1798 bytes for ./Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/SwiftyJSON.framework/SwiftyJSON ... 
+2025-03-18 03:44:59 +0000  322512 bytes for ./Frameworks/SwiftyJSON.framework/SwiftyJSON
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/SwiftyJSON.framework/Info.plist ... 
+2025-03-18 03:44:59 +0000  792 bytes for ./Frameworks/SwiftyJSON.framework/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/KTUtil.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:44:59 +0000  1798 bytes for ./Frameworks/KTUtil.framework/_CodeSignature/CodeResources
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/KTUtil.framework/KTUtil ... 
+2025-03-18 03:44:59 +0000  440880 bytes for ./Frameworks/KTUtil.framework/KTUtil
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/KTUtil.framework/Info.plist ... 
+2025-03-18 03:44:59 +0000  784 bytes for ./Frameworks/KTUtil.framework/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/NVActivityIndicatorView.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:44:59 +0000  1798 bytes for ./Frameworks/NVActivityIndicatorView.framework/_CodeSignature/CodeResources
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/NVActivityIndicatorView.framework/NVActivityIndicatorView ... 
+2025-03-18 03:44:59 +0000  341200 bytes for ./Frameworks/NVActivityIndicatorView.framework/NVActivityIndicatorView
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/NVActivityIndicatorView.framework/Info.plist ... 
+2025-03-18 03:44:59 +0000  820 bytes for ./Frameworks/NVActivityIndicatorView.framework/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/Kingfisher.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:44:59 +0000  2312 bytes for ./Frameworks/Kingfisher.framework/_CodeSignature/CodeResources
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/Kingfisher.framework/Kingfisher.bundle/PrivacyInfo.xcprivacy ... 
+2025-03-18 03:44:59 +0000  707 bytes for ./Frameworks/Kingfisher.framework/Kingfisher.bundle/PrivacyInfo.xcprivacy
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/Kingfisher.framework/Kingfisher.bundle/Info.plist ... 
+2025-03-18 03:44:59 +0000  767 bytes for ./Frameworks/Kingfisher.framework/Kingfisher.bundle/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/Kingfisher.framework/Kingfisher ... 
+2025-03-18 03:44:59 +0000  2371008 bytes for ./Frameworks/Kingfisher.framework/Kingfisher
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/Kingfisher.framework/Info.plist ... 
+2025-03-18 03:44:59 +0000  792 bytes for ./Frameworks/Kingfisher.framework/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/KeychainAccess.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:44:59 +0000  1798 bytes for ./Frameworks/KeychainAccess.framework/_CodeSignature/CodeResources
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/KeychainAccess.framework/KeychainAccess ... 
+2025-03-18 03:44:59 +0000  377136 bytes for ./Frameworks/KeychainAccess.framework/KeychainAccess
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/KeychainAccess.framework/Info.plist ... 
+2025-03-18 03:44:59 +0000  800 bytes for ./Frameworks/KeychainAccess.framework/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/RxRelay.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:44:59 +0000  1798 bytes for ./Frameworks/RxRelay.framework/_CodeSignature/CodeResources
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/RxRelay.framework/RxRelay ... 
+2025-03-18 03:44:59 +0000  140880 bytes for ./Frameworks/RxRelay.framework/RxRelay
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/RxRelay.framework/Info.plist ... 
+2025-03-18 03:44:59 +0000  786 bytes for ./Frameworks/RxRelay.framework/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/KTiOSApi.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:44:59 +0000  1798 bytes for ./Frameworks/KTiOSApi.framework/_CodeSignature/CodeResources
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/KTiOSApi.framework/KTiOSApi ... 
+2025-03-18 03:44:59 +0000  106464 bytes for ./Frameworks/KTiOSApi.framework/KTiOSApi
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/KTiOSApi.framework/Info.plist ... 
+2025-03-18 03:44:59 +0000  788 bytes for ./Frameworks/KTiOSApi.framework/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/libswift_Concurrency.dylib ... 
+2025-03-18 03:44:59 +0000  557584 bytes for ./Frameworks/libswift_Concurrency.dylib
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/KTChartKit.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:44:59 +0000  1798 bytes for ./Frameworks/KTChartKit.framework/_CodeSignature/CodeResources
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/KTChartKit.framework/KTChartKit ... 
+2025-03-18 03:44:59 +0000  1651152 bytes for ./Frameworks/KTChartKit.framework/KTChartKit
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/KTChartKit.framework/Info.plist ... 
+2025-03-18 03:44:59 +0000  792 bytes for ./Frameworks/KTChartKit.framework/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/ESPullToRefresh.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:44:59 +0000  2356 bytes for ./Frameworks/ESPullToRefresh.framework/_CodeSignature/CodeResources
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/ESPullToRefresh.framework/ESPullToRefresh ... 
+2025-03-18 03:44:59 +0000  339424 bytes for ./Frameworks/ESPullToRefresh.framework/ESPullToRefresh
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/icon_pull_to_refresh_arrow@2x.png ... 
+2025-03-18 03:44:59 +0000  918 bytes for ./Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/icon_pull_to_refresh_arrow@2x.png
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/Info.plist ... 
+2025-03-18 03:44:59 +0000  779 bytes for ./Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/ESPullToRefresh.framework/Info.plist ... 
+2025-03-18 03:44:59 +0000  804 bytes for ./Frameworks/ESPullToRefresh.framework/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/JTAppleCalendar.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:44:59 +0000  1798 bytes for ./Frameworks/JTAppleCalendar.framework/_CodeSignature/CodeResources
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/JTAppleCalendar.framework/JTAppleCalendar ... 
+2025-03-18 03:44:59 +0000  778640 bytes for ./Frameworks/JTAppleCalendar.framework/JTAppleCalendar
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/JTAppleCalendar.framework/Info.plist ... 
+2025-03-18 03:44:59 +0000  804 bytes for ./Frameworks/JTAppleCalendar.framework/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:44:59 +0000  2360 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift.bundle/PrivacyInfo.xcprivacy ... 
+2025-03-18 03:44:59 +0000  373 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift.bundle/PrivacyInfo.xcprivacy
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift.bundle/Info.plist ... 
+2025-03-18 03:44:59 +0000  793 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift.bundle/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift ... 
+2025-03-18 03:44:59 +0000  774352 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/IQKeyboardManagerSwift.framework/Info.plist ... 
+2025-03-18 03:44:59 +0000  818 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/SnapKit.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:44:59 +0000  2332 bytes for ./Frameworks/SnapKit.framework/_CodeSignature/CodeResources
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/SnapKit.framework/SnapKit ... 
+2025-03-18 03:44:59 +0000  351152 bytes for ./Frameworks/SnapKit.framework/SnapKit
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/SnapKit.framework/SnapKit_Privacy.bundle/PrivacyInfo.xcprivacy ... 
+2025-03-18 03:44:59 +0000  373 bytes for ./Frameworks/SnapKit.framework/SnapKit_Privacy.bundle/PrivacyInfo.xcprivacy
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/SnapKit.framework/SnapKit_Privacy.bundle/Info.plist ... 
+2025-03-18 03:44:59 +0000  779 bytes for ./Frameworks/SnapKit.framework/SnapKit_Privacy.bundle/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/SnapKit.framework/Info.plist ... 
+2025-03-18 03:44:59 +0000  786 bytes for ./Frameworks/SnapKit.framework/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:44:59 +0000  2308 bytes for ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/Alamofire.framework/Alamofire ... 
+2025-03-18 03:44:59 +0000  2857312 bytes for ./Frameworks/Alamofire.framework/Alamofire
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/Alamofire.framework/Alamofire.bundle/PrivacyInfo.xcprivacy ... 
+2025-03-18 03:44:59 +0000  600 bytes for ./Frameworks/Alamofire.framework/Alamofire.bundle/PrivacyInfo.xcprivacy
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/Alamofire.framework/Alamofire.bundle/Info.plist ... 
+2025-03-18 03:44:59 +0000  765 bytes for ./Frameworks/Alamofire.framework/Alamofire.bundle/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/Alamofire.framework/Info.plist ... 
+2025-03-18 03:44:59 +0000  790 bytes for ./Frameworks/Alamofire.framework/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/JXSegmentedView.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:44:59 +0000  2332 bytes for ./Frameworks/JXSegmentedView.framework/_CodeSignature/CodeResources
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/JXSegmentedView.framework/JXSegmentedView ... 
+2025-03-18 03:44:59 +0000  915968 bytes for ./Frameworks/JXSegmentedView.framework/JXSegmentedView
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/JXSegmentedView.framework/JXSegmentedView.bundle/PrivacyInfo.xcprivacy ... 
+2025-03-18 03:44:59 +0000  373 bytes for ./Frameworks/JXSegmentedView.framework/JXSegmentedView.bundle/PrivacyInfo.xcprivacy
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/JXSegmentedView.framework/JXSegmentedView.bundle/Info.plist ... 
+2025-03-18 03:44:59 +0000  779 bytes for ./Frameworks/JXSegmentedView.framework/JXSegmentedView.bundle/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/JXSegmentedView.framework/Info.plist ... 
+2025-03-18 03:44:59 +0000  804 bytes for ./Frameworks/JXSegmentedView.framework/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/JXPagingView.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:44:59 +0000  2320 bytes for ./Frameworks/JXPagingView.framework/_CodeSignature/CodeResources
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/JXPagingView.framework/JXPagingView.bundle/PrivacyInfo.xcprivacy ... 
+2025-03-18 03:44:59 +0000  373 bytes for ./Frameworks/JXPagingView.framework/JXPagingView.bundle/PrivacyInfo.xcprivacy
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/JXPagingView.framework/JXPagingView.bundle/Info.plist ... 
+2025-03-18 03:44:59 +0000  771 bytes for ./Frameworks/JXPagingView.framework/JXPagingView.bundle/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/JXPagingView.framework/JXPagingView ... 
+2025-03-18 03:44:59 +0000  388880 bytes for ./Frameworks/JXPagingView.framework/JXPagingView
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/JXPagingView.framework/Info.plist ... 
+2025-03-18 03:44:59 +0000  796 bytes for ./Frameworks/JXPagingView.framework/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/Gifu.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:44:59 +0000  1798 bytes for ./Frameworks/Gifu.framework/_CodeSignature/CodeResources
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/Gifu.framework/Gifu ... 
+2025-03-18 03:44:59 +0000  190704 bytes for ./Frameworks/Gifu.framework/Gifu
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/Gifu.framework/Info.plist ... 
+2025-03-18 03:44:59 +0000  780 bytes for ./Frameworks/Gifu.framework/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/RxCocoa.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:44:59 +0000  1798 bytes for ./Frameworks/RxCocoa.framework/_CodeSignature/CodeResources
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/RxCocoa.framework/RxCocoa ... 
+2025-03-18 03:44:59 +0000  1440208 bytes for ./Frameworks/RxCocoa.framework/RxCocoa
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/RxCocoa.framework/Info.plist ... 
+2025-03-18 03:44:59 +0000  786 bytes for ./Frameworks/RxCocoa.framework/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/RxSwift.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:44:59 +0000  1798 bytes for ./Frameworks/RxSwift.framework/_CodeSignature/CodeResources
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/RxSwift.framework/RxSwift ... 
+2025-03-18 03:44:59 +0000  2107200 bytes for ./Frameworks/RxSwift.framework/RxSwift
+2025-03-18 03:44:59 +0000  copying file ./Frameworks/RxSwift.framework/Info.plist ... 
+2025-03-18 03:44:59 +0000  786 bytes for ./Frameworks/RxSwift.framework/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./embedded.mobileprovision ... 
+2025-03-18 03:44:59 +0000  22886 bytes for ./embedded.mobileprovision
+2025-03-18 03:44:59 +0000  copying file ./swift-nio_NIOPosix.bundle/PrivacyInfo.xcprivacy ... 
+2025-03-18 03:44:59 +0000  599 bytes for ./swift-nio_NIOPosix.bundle/PrivacyInfo.xcprivacy
+2025-03-18 03:44:59 +0000  copying file ./swift-nio_NIOPosix.bundle/Info.plist ... 
+2025-03-18 03:44:59 +0000  683 bytes for ./swift-nio_NIOPosix.bundle/Info.plist
+2025-03-18 03:44:59 +0000  copying file ./Info.plist ... 
+2025-03-18 03:44:59 +0000  1759 bytes for ./Info.plist
+2025-03-18 03:44:59 +0000  copying file ./PkgInfo ... 
+2025-03-18 03:44:59 +0000  8 bytes for ./PkgInfo
+2025-03-18 03:44:59 +0000 [MT] /usr/bin/ditto exited with 0
+2025-03-18 03:44:59 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2025-03-18 03:44:59 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000031fee20; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x600003ed9180:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356ccd0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001740; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x6000031d8600:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'>
+2025-03-18 03:44:59 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000031a8660; bundleID='org.cocoapods.ESPullToRefresh', path='<DVTFilePath:0x600003ed85b0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/ESPullToRefresh.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356dae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001680; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.ESPullToRefresh', executablePath='<DVTFilePath:0x6000031c56e0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/ESPullToRefresh.framework/ESPullToRefresh'>', hardenedRuntime='0'>'>
+2025-03-18 03:44:59 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000031a8420; bundleID='org.cocoapods.Gifu', path='<DVTFilePath:0x60000317bba0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Gifu.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003696cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001800; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.Gifu', executablePath='<DVTFilePath:0x6000031d95c0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Gifu.framework/Gifu'>', hardenedRuntime='0'>'>
+2025-03-18 03:44:59 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000031cb900; bundleID='org.cocoapods.IQKeyboardManagerSwift', path='<DVTFilePath:0x600003a44800:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003696080; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001680; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.IQKeyboardManagerSwift', executablePath='<DVTFilePath:0x600003edc0e0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift'>', hardenedRuntime='0'>'>
+2025-03-18 03:44:59 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000031d42a0; bundleID='org.cocoapods.JTAppleCalendar', path='<DVTFilePath:0x600003ecfcd0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JTAppleCalendar.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000368e850; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001680; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.JTAppleCalendar', executablePath='<DVTFilePath:0x6000031c2c40:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JTAppleCalendar.framework/JTAppleCalendar'>', hardenedRuntime='0'>'>
+2025-03-18 03:44:59 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000031a8a80; bundleID='org.cocoapods.JXPagingView', path='<DVTFilePath:0x600003ed9880:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXPagingView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356e210; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001740; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.JXPagingView', executablePath='<DVTFilePath:0x60000317b7e0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXPagingView.framework/JXPagingView'>', hardenedRuntime='0'>'>
+2025-03-18 03:44:59 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000031caee0; bundleID='org.cocoapods.JXSegmentedView', path='<DVTFilePath:0x600003edc770:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXSegmentedView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000368df90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001680; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.JXSegmentedView', executablePath='<DVTFilePath:0x6000031e0720:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXSegmentedView.framework/JXSegmentedView'>', hardenedRuntime='0'>'>
+2025-03-18 03:44:59 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000031e37e0; bundleID='org.cocoapods.KTChartKit', path='<DVTFilePath:0x600003ed83f0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTChartKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000368e440; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001740; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.KTChartKit', executablePath='<DVTFilePath:0x6000031c4e40:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTChartKit.framework/KTChartKit'>', hardenedRuntime='0'>'>
+2025-03-18 03:44:59 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000031e32a0; bundleID='org.cocoapods.KTUtil', path='<DVTFilePath:0x600003e0b330:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTUtil.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356d130; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001800; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.KTUtil', executablePath='<DVTFilePath:0x6000031ccba0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTUtil.framework/KTUtil'>', hardenedRuntime='0'>'>
+2025-03-18 03:44:59 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000031e3060; bundleID='org.cocoapods.KTiOSApi', path='<DVTFilePath:0x600003ecf640:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTiOSApi.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003695950; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001740; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.KTiOSApi', executablePath='<DVTFilePath:0x6000031c4360:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTiOSApi.framework/KTiOSApi'>', hardenedRuntime='0'>'>
+2025-03-18 03:44:59 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000031d4360; bundleID='org.cocoapods.KeychainAccess', path='<DVTFilePath:0x600003ecf2c0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KeychainAccess.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003696d00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001740; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.KeychainAccess', executablePath='<DVTFilePath:0x6000031c06c0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KeychainAccess.framework/KeychainAccess'>', hardenedRuntime='0'>'>
+2025-03-18 03:44:59 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000031e3540; bundleID='org.cocoapods.Kingfisher', path='<DVTFilePath:0x600003ec4310:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Kingfisher.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356d2c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001740; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.Kingfisher', executablePath='<DVTFilePath:0x6000031f7d20:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Kingfisher.framework/Kingfisher'>', hardenedRuntime='0'>'>
+2025-03-18 03:44:59 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000031a8840; bundleID='org.cocoapods.NVActivityIndicatorView', path='<DVTFilePath:0x600003a5cf80:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356dcc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001680; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.NVActivityIndicatorView', executablePath='<DVTFilePath:0x600003ec40e0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework/NVActivityIndicatorView'>', hardenedRuntime='0'>'>
+2025-03-18 03:44:59 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000031ff780; bundleID='org.cocoapods.RxCocoa', path='<DVTFilePath:0x600003edcb60:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxCocoa.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356a710; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001800; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.RxCocoa', executablePath='<DVTFilePath:0x6000031d9e00:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxCocoa.framework/RxCocoa'>', hardenedRuntime='0'>'>
+2025-03-18 03:44:59 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000031d43c0; bundleID='org.cocoapods.RxRelay', path='<DVTFilePath:0x600003ecf480:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxRelay.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356db30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001800; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.RxRelay', executablePath='<DVTFilePath:0x6000031c0f00:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxRelay.framework/RxRelay'>', hardenedRuntime='0'>'>
+2025-03-18 03:44:59 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000031ffb40; bundleID='org.cocoapods.RxSwift', path='<DVTFilePath:0x600003edcd20:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356d310; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001800; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.RxSwift', executablePath='<DVTFilePath:0x6000031da280:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxSwift.framework/RxSwift'>', hardenedRuntime='0'>'>
+2025-03-18 03:44:59 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000031cf900; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x600003edc230:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003628780; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001800; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x6000031c6b20:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'>
+2025-03-18 03:44:59 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000031d2280; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x600003eced80:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SwiftyJSON.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356b340; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001740; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x600003179980:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SwiftyJSON.framework/SwiftyJSON'>', hardenedRuntime='0'>'>
+2025-03-18 03:44:59 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000031d4300; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x600003ed82a0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000036288c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001680; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x600003ed82a0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'>
+2025-03-18 03:44:59 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2025-03-18 03:44:59 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2025-03-18 03:44:59 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Alamofire.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Alamofire.framework are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/Alamofire.framework/Alamofire' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "Alamofire" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/ESPullToRefresh.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/ESPullToRefresh.framework are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/ESPullToRefresh.framework/ESPullToRefresh' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "ESPullToRefresh" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Gifu.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Gifu.framework are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/Gifu.framework/Gifu' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "Gifu" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "IQKeyboardManagerSwift" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JTAppleCalendar.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JTAppleCalendar.framework are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/JTAppleCalendar.framework/JTAppleCalendar' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "JTAppleCalendar" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXPagingView.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXPagingView.framework are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/JXPagingView.framework/JXPagingView' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "JXPagingView" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXSegmentedView.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXSegmentedView.framework are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/JXSegmentedView.framework/JXSegmentedView' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "JXSegmentedView" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTChartKit.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTChartKit.framework are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KTChartKit.framework/KTChartKit' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "KTChartKit" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTUtil.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTUtil.framework are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KTUtil.framework/KTUtil' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "KTUtil" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTiOSApi.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTiOSApi.framework are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KTiOSApi.framework/KTiOSApi' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "KTiOSApi" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KeychainAccess.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KeychainAccess.framework are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KeychainAccess.framework/KeychainAccess' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "KeychainAccess" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Kingfisher.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Kingfisher.framework are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/Kingfisher.framework/Kingfisher' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "Kingfisher" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework/NVActivityIndicatorView' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "NVActivityIndicatorView" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxCocoa.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxCocoa.framework are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/RxCocoa.framework/RxCocoa' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "RxCocoa" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxRelay.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxRelay.framework are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/RxRelay.framework/RxRelay' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "RxRelay" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxSwift.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxSwift.framework are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/RxSwift.framework/RxSwift' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "RxSwift" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SnapKit.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SnapKit.framework are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/SnapKit.framework/SnapKit' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "SnapKit" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SwiftyJSON.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SwiftyJSON.framework are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/SwiftyJSON.framework/SwiftyJSON' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "SwiftyJSON" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/libswift_Concurrency.dylib doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/libswift_Concurrency.dylib are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/libswift_Concurrency.dylib' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "libswift_Concurrency.dylib" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Archs to thin for item /Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app are ["arm64e"]
+2025-03-18 03:44:59 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/KaiToApp' '-verify_arch' 'arm64e'
+2025-03-18 03:44:59 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-03-18 03:44:59 +0000 [MT] Skipping architecture thinning for item "KaiToApp" because arch "arm64e" wasn't found
+2025-03-18 03:44:59 +0000 [MT] Processing step: IDEDistributionODRStep
+2025-03-18 03:44:59 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-03-18 03:44:59 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2025-03-18 03:44:59 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031fee20; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x600003ed9180:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356ccd0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001680; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x6000031d8600:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'>: {
+}
+2025-03-18 03:44:59 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:44:59 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031fee20; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x600003ed9180:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356ccd0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001500; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x6000031d8600:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'> are: {
+}
+2025-03-18 03:44:59 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031fee20; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x600003ed9180:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356ccd0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001980; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x6000031d8600:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~H9Ugss
+2025-03-18 03:44:59 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000035e86e0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~H9Ugss",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/Alamofire.framework"
+)'>
+2025-03-18 03:45:00 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/Alamofire.framework: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/Alamofire.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.Alamofire]
+2025-03-18 03:45:00 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031a8660; bundleID='org.cocoapods.ESPullToRefresh', path='<DVTFilePath:0x600003ed85b0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/ESPullToRefresh.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356dae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002074000; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.ESPullToRefresh', executablePath='<DVTFilePath:0x6000031c56e0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/ESPullToRefresh.framework/ESPullToRefresh'>', hardenedRuntime='0'>'>: {
+}
+2025-03-18 03:45:00 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:45:00 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031a8660; bundleID='org.cocoapods.ESPullToRefresh', path='<DVTFilePath:0x600003ed85b0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/ESPullToRefresh.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356dae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000020658c0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.ESPullToRefresh', executablePath='<DVTFilePath:0x6000031c56e0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/ESPullToRefresh.framework/ESPullToRefresh'>', hardenedRuntime='0'>'> are: {
+}
+2025-03-18 03:45:00 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031a8660; bundleID='org.cocoapods.ESPullToRefresh', path='<DVTFilePath:0x600003ed85b0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/ESPullToRefresh.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356dae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002065980; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.ESPullToRefresh', executablePath='<DVTFilePath:0x6000031c56e0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/ESPullToRefresh.framework/ESPullToRefresh'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~YzhsRT
+2025-03-18 03:45:00 +0000 [MT] invoking codesign: <NSConcreteTask: 0x600003561fe0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~YzhsRT",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/ESPullToRefresh.framework"
+)'>
+2025-03-18 03:45:00 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/ESPullToRefresh.framework: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/ESPullToRefresh.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.ESPullToRefresh]
+2025-03-18 03:45:00 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031a8420; bundleID='org.cocoapods.Gifu', path='<DVTFilePath:0x60000317bba0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Gifu.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003696cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000020015c0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.Gifu', executablePath='<DVTFilePath:0x6000031d95c0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Gifu.framework/Gifu'>', hardenedRuntime='0'>'>: {
+}
+2025-03-18 03:45:00 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:45:00 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031a8420; bundleID='org.cocoapods.Gifu', path='<DVTFilePath:0x60000317bba0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Gifu.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003696cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001b00; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.Gifu', executablePath='<DVTFilePath:0x6000031d95c0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Gifu.framework/Gifu'>', hardenedRuntime='0'>'> are: {
+}
+2025-03-18 03:45:00 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031a8420; bundleID='org.cocoapods.Gifu', path='<DVTFilePath:0x60000317bba0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Gifu.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003696cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001d40; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.Gifu', executablePath='<DVTFilePath:0x6000031d95c0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Gifu.framework/Gifu'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~j3qng2
+2025-03-18 03:45:00 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000035e8a00; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~j3qng2",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/Gifu.framework"
+)'>
+2025-03-18 03:45:00 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/Gifu.framework: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/Gifu.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.Gifu]
+2025-03-18 03:45:00 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031cb900; bundleID='org.cocoapods.IQKeyboardManagerSwift', path='<DVTFilePath:0x600003a44800:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003696080; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000204a1c0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.IQKeyboardManagerSwift', executablePath='<DVTFilePath:0x600003edc0e0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift'>', hardenedRuntime='0'>'>: {
+}
+2025-03-18 03:45:00 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:45:00 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031cb900; bundleID='org.cocoapods.IQKeyboardManagerSwift', path='<DVTFilePath:0x600003a44800:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003696080; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000020489c0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.IQKeyboardManagerSwift', executablePath='<DVTFilePath:0x600003edc0e0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift'>', hardenedRuntime='0'>'> are: {
+}
+2025-03-18 03:45:00 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031cb900; bundleID='org.cocoapods.IQKeyboardManagerSwift', path='<DVTFilePath:0x600003a44800:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003696080; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000020658c0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.IQKeyboardManagerSwift', executablePath='<DVTFilePath:0x600003edc0e0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~xGUIL9
+2025-03-18 03:45:00 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000036c0730; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~xGUIL9",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework"
+)'>
+2025-03-18 03:45:00 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.IQKeyboardManagerSwift]
+2025-03-18 03:45:00 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031d42a0; bundleID='org.cocoapods.JTAppleCalendar', path='<DVTFilePath:0x600003ecfcd0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JTAppleCalendar.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000368e850; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001740; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.JTAppleCalendar', executablePath='<DVTFilePath:0x6000031c2c40:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JTAppleCalendar.framework/JTAppleCalendar'>', hardenedRuntime='0'>'>: {
+}
+2025-03-18 03:45:00 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:45:00 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031d42a0; bundleID='org.cocoapods.JTAppleCalendar', path='<DVTFilePath:0x600003ecfcd0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JTAppleCalendar.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000368e850; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000020015c0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.JTAppleCalendar', executablePath='<DVTFilePath:0x6000031c2c40:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JTAppleCalendar.framework/JTAppleCalendar'>', hardenedRuntime='0'>'> are: {
+}
+2025-03-18 03:45:00 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031d42a0; bundleID='org.cocoapods.JTAppleCalendar', path='<DVTFilePath:0x600003ecfcd0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JTAppleCalendar.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000368e850; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000020018c0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.JTAppleCalendar', executablePath='<DVTFilePath:0x6000031c2c40:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JTAppleCalendar.framework/JTAppleCalendar'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~qiZXBt
+2025-03-18 03:45:00 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000035e8410; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~qiZXBt",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/JTAppleCalendar.framework"
+)'>
+2025-03-18 03:45:00 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/JTAppleCalendar.framework: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/JTAppleCalendar.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.JTAppleCalendar]
+2025-03-18 03:45:00 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031a8a80; bundleID='org.cocoapods.JXPagingView', path='<DVTFilePath:0x600003ed9880:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXPagingView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356e210; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001680; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.JXPagingView', executablePath='<DVTFilePath:0x60000317b7e0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXPagingView.framework/JXPagingView'>', hardenedRuntime='0'>'>: {
+}
+2025-03-18 03:45:00 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:45:00 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031a8a80; bundleID='org.cocoapods.JXPagingView', path='<DVTFilePath:0x600003ed9880:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXPagingView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356e210; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001800; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.JXPagingView', executablePath='<DVTFilePath:0x60000317b7e0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXPagingView.framework/JXPagingView'>', hardenedRuntime='0'>'> are: {
+}
+2025-03-18 03:45:00 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031a8a80; bundleID='org.cocoapods.JXPagingView', path='<DVTFilePath:0x600003ed9880:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXPagingView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356e210; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001980; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.JXPagingView', executablePath='<DVTFilePath:0x60000317b7e0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXPagingView.framework/JXPagingView'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~rMHVC7
+2025-03-18 03:45:00 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000035e8af0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~rMHVC7",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/JXPagingView.framework"
+)'>
+2025-03-18 03:45:00 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/JXPagingView.framework: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/JXPagingView.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.JXPagingView]
+2025-03-18 03:45:00 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031caee0; bundleID='org.cocoapods.JXSegmentedView', path='<DVTFilePath:0x600003edc770:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXSegmentedView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000368df90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000204a1c0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.JXSegmentedView', executablePath='<DVTFilePath:0x6000031e0720:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXSegmentedView.framework/JXSegmentedView'>', hardenedRuntime='0'>'>: {
+}
+2025-03-18 03:45:00 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:45:00 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031caee0; bundleID='org.cocoapods.JXSegmentedView', path='<DVTFilePath:0x600003edc770:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXSegmentedView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000368df90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000020740c0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.JXSegmentedView', executablePath='<DVTFilePath:0x6000031e0720:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXSegmentedView.framework/JXSegmentedView'>', hardenedRuntime='0'>'> are: {
+}
+2025-03-18 03:45:00 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031caee0; bundleID='org.cocoapods.JXSegmentedView', path='<DVTFilePath:0x600003edc770:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXSegmentedView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000368df90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002074c00; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.JXSegmentedView', executablePath='<DVTFilePath:0x6000031e0720:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/JXSegmentedView.framework/JXSegmentedView'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~lTnKfK
+2025-03-18 03:45:00 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000036813b0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~lTnKfK",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/JXSegmentedView.framework"
+)'>
+2025-03-18 03:45:00 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/JXSegmentedView.framework: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/JXSegmentedView.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.JXSegmentedView]
+2025-03-18 03:45:00 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031e37e0; bundleID='org.cocoapods.KTChartKit', path='<DVTFilePath:0x600003ed83f0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTChartKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000368e440; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001680; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.KTChartKit', executablePath='<DVTFilePath:0x6000031c4e40:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTChartKit.framework/KTChartKit'>', hardenedRuntime='0'>'>: {
+}
+2025-03-18 03:45:00 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:45:00 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031e37e0; bundleID='org.cocoapods.KTChartKit', path='<DVTFilePath:0x600003ed83f0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTChartKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000368e440; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001800; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.KTChartKit', executablePath='<DVTFilePath:0x6000031c4e40:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTChartKit.framework/KTChartKit'>', hardenedRuntime='0'>'> are: {
+}
+2025-03-18 03:45:00 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031e37e0; bundleID='org.cocoapods.KTChartKit', path='<DVTFilePath:0x600003ed83f0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTChartKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000368e440; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001980; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.KTChartKit', executablePath='<DVTFilePath:0x6000031c4e40:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTChartKit.framework/KTChartKit'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~5sT9Qr
+2025-03-18 03:45:00 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000035e8910; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~5sT9Qr",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KTChartKit.framework"
+)'>
+2025-03-18 03:45:00 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KTChartKit.framework: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KTChartKit.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.KTChartKit]
+2025-03-18 03:45:00 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031e32a0; bundleID='org.cocoapods.KTUtil', path='<DVTFilePath:0x600003e0b330:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTUtil.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356d130; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000020015c0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.KTUtil', executablePath='<DVTFilePath:0x6000031ccba0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTUtil.framework/KTUtil'>', hardenedRuntime='0'>'>: {
+}
+2025-03-18 03:45:00 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:45:00 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031e32a0; bundleID='org.cocoapods.KTUtil', path='<DVTFilePath:0x600003e0b330:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTUtil.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356d130; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001b00; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.KTUtil', executablePath='<DVTFilePath:0x6000031ccba0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTUtil.framework/KTUtil'>', hardenedRuntime='0'>'> are: {
+}
+2025-03-18 03:45:00 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031e32a0; bundleID='org.cocoapods.KTUtil', path='<DVTFilePath:0x600003e0b330:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTUtil.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356d130; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001d40; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.KTUtil', executablePath='<DVTFilePath:0x6000031ccba0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTUtil.framework/KTUtil'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~LaLJX2
+2025-03-18 03:45:00 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000035e8230; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~LaLJX2",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KTUtil.framework"
+)'>
+2025-03-18 03:45:01 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KTUtil.framework: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KTUtil.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.KTUtil]
+2025-03-18 03:45:01 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031e3060; bundleID='org.cocoapods.KTiOSApi', path='<DVTFilePath:0x600003ecf640:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTiOSApi.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003695950; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000020489c0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.KTiOSApi', executablePath='<DVTFilePath:0x6000031c4360:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTiOSApi.framework/KTiOSApi'>', hardenedRuntime='0'>'>: {
+}
+2025-03-18 03:45:01 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:45:01 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031e3060; bundleID='org.cocoapods.KTiOSApi', path='<DVTFilePath:0x600003ecf640:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTiOSApi.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003695950; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002065980; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.KTiOSApi', executablePath='<DVTFilePath:0x6000031c4360:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTiOSApi.framework/KTiOSApi'>', hardenedRuntime='0'>'> are: {
+}
+2025-03-18 03:45:01 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031e3060; bundleID='org.cocoapods.KTiOSApi', path='<DVTFilePath:0x600003ecf640:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTiOSApi.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003695950; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002066100; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.KTiOSApi', executablePath='<DVTFilePath:0x6000031c4360:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KTiOSApi.framework/KTiOSApi'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~H2fxAT
+2025-03-18 03:45:01 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000036c0780; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~H2fxAT",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KTiOSApi.framework"
+)'>
+2025-03-18 03:45:01 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KTiOSApi.framework: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KTiOSApi.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.KTiOSApi]
+2025-03-18 03:45:01 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031d4360; bundleID='org.cocoapods.KeychainAccess', path='<DVTFilePath:0x600003ecf2c0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KeychainAccess.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003696d00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001680; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.KeychainAccess', executablePath='<DVTFilePath:0x6000031c06c0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KeychainAccess.framework/KeychainAccess'>', hardenedRuntime='0'>'>: {
+}
+2025-03-18 03:45:01 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:45:01 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031d4360; bundleID='org.cocoapods.KeychainAccess', path='<DVTFilePath:0x600003ecf2c0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KeychainAccess.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003696d00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001800; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.KeychainAccess', executablePath='<DVTFilePath:0x6000031c06c0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KeychainAccess.framework/KeychainAccess'>', hardenedRuntime='0'>'> are: {
+}
+2025-03-18 03:45:01 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031d4360; bundleID='org.cocoapods.KeychainAccess', path='<DVTFilePath:0x600003ecf2c0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KeychainAccess.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003696d00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001980; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.KeychainAccess', executablePath='<DVTFilePath:0x6000031c06c0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/KeychainAccess.framework/KeychainAccess'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~Ksx3TL
+2025-03-18 03:45:01 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000035e8910; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~Ksx3TL",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KeychainAccess.framework"
+)'>
+2025-03-18 03:45:01 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KeychainAccess.framework: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KeychainAccess.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.KeychainAccess]
+2025-03-18 03:45:01 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031e3540; bundleID='org.cocoapods.Kingfisher', path='<DVTFilePath:0x600003ec4310:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Kingfisher.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356d2c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001680; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.Kingfisher', executablePath='<DVTFilePath:0x6000031f7d20:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Kingfisher.framework/Kingfisher'>', hardenedRuntime='0'>'>: {
+}
+2025-03-18 03:45:01 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:45:01 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031e3540; bundleID='org.cocoapods.Kingfisher', path='<DVTFilePath:0x600003ec4310:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Kingfisher.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356d2c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001800; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.Kingfisher', executablePath='<DVTFilePath:0x6000031f7d20:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Kingfisher.framework/Kingfisher'>', hardenedRuntime='0'>'> are: {
+}
+2025-03-18 03:45:01 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031e3540; bundleID='org.cocoapods.Kingfisher', path='<DVTFilePath:0x600003ec4310:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Kingfisher.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356d2c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001980; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.Kingfisher', executablePath='<DVTFilePath:0x6000031f7d20:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/Kingfisher.framework/Kingfisher'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~GlKzvA
+2025-03-18 03:45:01 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000035e85f0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~GlKzvA",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/Kingfisher.framework"
+)'>
+2025-03-18 03:45:01 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/Kingfisher.framework: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/Kingfisher.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.Kingfisher]
+2025-03-18 03:45:01 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031a8840; bundleID='org.cocoapods.NVActivityIndicatorView', path='<DVTFilePath:0x600003a5cf80:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356dcc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000204c240; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.NVActivityIndicatorView', executablePath='<DVTFilePath:0x600003ec40e0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework/NVActivityIndicatorView'>', hardenedRuntime='0'>'>: {
+}
+2025-03-18 03:45:01 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:45:01 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031a8840; bundleID='org.cocoapods.NVActivityIndicatorView', path='<DVTFilePath:0x600003a5cf80:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356dcc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000204c540; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.NVActivityIndicatorView', executablePath='<DVTFilePath:0x600003ec40e0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework/NVActivityIndicatorView'>', hardenedRuntime='0'>'> are: {
+}
+2025-03-18 03:45:01 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031a8840; bundleID='org.cocoapods.NVActivityIndicatorView', path='<DVTFilePath:0x600003a5cf80:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356dcc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000204c000; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.NVActivityIndicatorView', executablePath='<DVTFilePath:0x600003ec40e0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework/NVActivityIndicatorView'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~Z3svmX
+2025-03-18 03:45:01 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000036c28f0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~Z3svmX",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework"
+)'>
+2025-03-18 03:45:01 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.NVActivityIndicatorView]
+2025-03-18 03:45:01 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031ff780; bundleID='org.cocoapods.RxCocoa', path='<DVTFilePath:0x600003edcb60:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxCocoa.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356a710; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000020015c0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.RxCocoa', executablePath='<DVTFilePath:0x6000031d9e00:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxCocoa.framework/RxCocoa'>', hardenedRuntime='0'>'>: {
+}
+2025-03-18 03:45:01 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:45:01 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031ff780; bundleID='org.cocoapods.RxCocoa', path='<DVTFilePath:0x600003edcb60:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxCocoa.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356a710; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001980; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.RxCocoa', executablePath='<DVTFilePath:0x6000031d9e00:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxCocoa.framework/RxCocoa'>', hardenedRuntime='0'>'> are: {
+}
+2025-03-18 03:45:01 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031ff780; bundleID='org.cocoapods.RxCocoa', path='<DVTFilePath:0x600003edcb60:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxCocoa.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356a710; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001bc0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.RxCocoa', executablePath='<DVTFilePath:0x6000031d9e00:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxCocoa.framework/RxCocoa'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~BF1Yfj
+2025-03-18 03:45:01 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000035e8b90; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~BF1Yfj",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/RxCocoa.framework"
+)'>
+2025-03-18 03:45:01 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/RxCocoa.framework: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/RxCocoa.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.RxCocoa]
+2025-03-18 03:45:01 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031d43c0; bundleID='org.cocoapods.RxRelay', path='<DVTFilePath:0x600003ecf480:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxRelay.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356db30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000020015c0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.RxRelay', executablePath='<DVTFilePath:0x6000031c0f00:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxRelay.framework/RxRelay'>', hardenedRuntime='0'>'>: {
+}
+2025-03-18 03:45:01 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:45:01 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031d43c0; bundleID='org.cocoapods.RxRelay', path='<DVTFilePath:0x600003ecf480:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxRelay.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356db30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001980; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.RxRelay', executablePath='<DVTFilePath:0x6000031c0f00:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxRelay.framework/RxRelay'>', hardenedRuntime='0'>'> are: {
+}
+2025-03-18 03:45:01 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031d43c0; bundleID='org.cocoapods.RxRelay', path='<DVTFilePath:0x600003ecf480:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxRelay.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356db30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001bc0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.RxRelay', executablePath='<DVTFilePath:0x6000031c0f00:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxRelay.framework/RxRelay'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~Z4e681
+2025-03-18 03:45:01 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000035e8280; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~Z4e681",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/RxRelay.framework"
+)'>
+2025-03-18 03:45:01 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/RxRelay.framework: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/RxRelay.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.RxRelay]
+2025-03-18 03:45:01 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031ffb40; bundleID='org.cocoapods.RxSwift', path='<DVTFilePath:0x600003edcd20:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356d310; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000204a100; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.RxSwift', executablePath='<DVTFilePath:0x6000031da280:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxSwift.framework/RxSwift'>', hardenedRuntime='0'>'>: {
+}
+2025-03-18 03:45:01 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:45:01 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031ffb40; bundleID='org.cocoapods.RxSwift', path='<DVTFilePath:0x600003edcd20:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356d310; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002074000; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.RxSwift', executablePath='<DVTFilePath:0x6000031da280:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxSwift.framework/RxSwift'>', hardenedRuntime='0'>'> are: {
+}
+2025-03-18 03:45:01 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031ffb40; bundleID='org.cocoapods.RxSwift', path='<DVTFilePath:0x600003edcd20:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356d310; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002074cc0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.RxSwift', executablePath='<DVTFilePath:0x6000031da280:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/RxSwift.framework/RxSwift'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~DRQLyZ
+2025-03-18 03:45:01 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000036c0e10; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~DRQLyZ",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/RxSwift.framework"
+)'>
+2025-03-18 03:45:01 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/RxSwift.framework: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/RxSwift.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.RxSwift]
+2025-03-18 03:45:01 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031cf900; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x600003edc230:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003628780; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000020015c0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x6000031c6b20:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'>: {
+}
+2025-03-18 03:45:01 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:45:01 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031cf900; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x600003edc230:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003628780; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001980; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x6000031c6b20:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'> are: {
+}
+2025-03-18 03:45:01 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031cf900; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x600003edc230:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003628780; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001bc0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x6000031c6b20:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~Tbf8Up
+2025-03-18 03:45:01 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000035e8500; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~Tbf8Up",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/SnapKit.framework"
+)'>
+2025-03-18 03:45:02 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/SnapKit.framework: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/SnapKit.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.SnapKit]
+2025-03-18 03:45:02 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031d2280; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x600003eced80:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SwiftyJSON.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356b340; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000204c300; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x600003179980:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SwiftyJSON.framework/SwiftyJSON'>', hardenedRuntime='0'>'>: {
+}
+2025-03-18 03:45:02 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:45:02 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031d2280; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x600003eced80:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SwiftyJSON.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356b340; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000020489c0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x600003179980:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SwiftyJSON.framework/SwiftyJSON'>', hardenedRuntime='0'>'> are: {
+}
+2025-03-18 03:45:02 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031d2280; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x600003eced80:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SwiftyJSON.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60000356b340; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000020740c0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x600003179980:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/SwiftyJSON.framework/SwiftyJSON'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~rfUPse
+2025-03-18 03:45:02 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000035615e0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~rfUPse",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/SwiftyJSON.framework"
+)'>
+2025-03-18 03:45:02 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/SwiftyJSON.framework: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/SwiftyJSON.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.SwiftyJSON]
+2025-03-18 03:45:02 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031d4300; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x600003ed82a0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000036288c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002001740; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x600003ed82a0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'>: {
+}
+2025-03-18 03:45:02 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:45:02 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031d4300; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x600003ed82a0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000036288c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000020015c0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x600003ed82a0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2025-03-18 03:45:02 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031d4300; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x600003ed82a0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000036288c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000020018c0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='(null)', teamID='358UF6MCG5', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x600003ed82a0:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~UqZXDX
+2025-03-18 03:45:02 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000035e89b0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~UqZXDX",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/libswift_Concurrency.dylib"
+)'>
+2025-03-18 03:45:02 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/libswift_Concurrency.dylib: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/libswift_Concurrency.dylib: signed Mach-O thin (arm64) [com.apple.dt.runtime.swiftConcurrency]
+2025-03-18 03:45:02 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031aaee0; bundleID='ai.kaito.kaito', path='<DVTFilePath:0x600003111620:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003697890; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000204a1c0; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='{
+    "application-identifier" = "358UF6MCG5.ai.kaito.kaito";
+    "com.apple.developer.team-identifier" = 358UF6MCG5;
+    "get-task-allow" = 0;
+}', teamID='358UF6MCG5', identifier='ai.kaito.kaito', executablePath='<DVTFilePath:0x6000031ca400:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/KaiToApp'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "358UF6MCG5.ai.kaito.kaito";
+    "com.apple.developer.team-identifier" = 358UF6MCG5;
+    "get-task-allow" = 0;
+}
+2025-03-18 03:45:02 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-03-18 03:45:02 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000031aaee0; bundleID='ai.kaito.kaito', path='<DVTFilePath:0x600003111620:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003697890; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002074c00; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='{
+    "application-identifier" = "358UF6MCG5.ai.kaito.kaito";
+    "com.apple.developer.team-identifier" = 358UF6MCG5;
+    "get-task-allow" = 0;
+}', teamID='358UF6MCG5', identifier='ai.kaito.kaito', executablePath='<DVTFilePath:0x6000031ca400:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/KaiToApp'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "358UF6MCG5.ai.kaito.kaito";
+    "com.apple.developer.team-identifier" = 358UF6MCG5;
+    "get-task-allow" = 0;
+}
+2025-03-18 03:45:02 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000031aaee0; bundleID='ai.kaito.kaito', path='<DVTFilePath:0x600003111620:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003697890; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002075440; name='iPhone Distribution: Kaito Pte. Ltd. (358UF6MCG5)', hash='68183B48A146CA876241BD0D1C1856788188F640', serialNumber='7F62C12FE7E5542CA1BABDAE7196F190', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2024-09-25 05:33:38 +0000''>', entitlements='{
+    "application-identifier" = "358UF6MCG5.ai.kaito.kaito";
+    "com.apple.developer.team-identifier" = 358UF6MCG5;
+    "get-task-allow" = 0;
+}', teamID='358UF6MCG5', identifier='ai.kaito.kaito', executablePath='<DVTFilePath:0x6000031ca400:'/Users/daliu_kt/.jenkins/workspace/iOSKaitoApp/.build/KaiToApp.xcarchive/Products/Applications/KaiToApp.app/KaiToApp'>', hardenedRuntime='0'>'> to: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~G7QNHH
+2025-03-18 03:45:02 +0000 [MT] invoking codesign: <NSConcreteTask: 0x600003682a80; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    68183B48A146CA876241BD0D1C1856788188F640,
+    "--entitlements",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/entitlements~~~G7QNHH",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app"
+)'>
+2025-03-18 03:45:02 +0000 [MT] codesign output: /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app: replacing existing signature
+/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app: signed app bundle with Mach-O thin (arm64) [ai.kaito.kaito]
+2025-03-18 03:45:02 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-03-18 03:45:02 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2025-03-18 03:45:02 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root' '/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Packages/KaiToApp.ipa'
+2025-03-18 03:45:02 +0000  >>> Copying /var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root 
+2025-03-18 03:45:02 +0000  copying file ./Payload/KaiToApp.app/_CodeSignature/CodeResources ... 
+2025-03-18 03:45:02 +0000  26245 bytes for ./Payload/KaiToApp.app/_CodeSignature/CodeResources
+2025-03-18 03:45:02 +0000  copying file ./Payload/KaiToApp.app/AppIcon60x60@2x.png ... 
+2025-03-18 03:45:02 +0000  2905 bytes for ./Payload/KaiToApp.app/AppIcon60x60@2x.png
+2025-03-18 03:45:02 +0000  copying file ./Payload/KaiToApp.app/signIn.gif ... 
+2025-03-18 03:45:02 +0000  364856 bytes for ./Payload/KaiToApp.app/signIn.gif
+2025-03-18 03:45:02 +0000  copying file ./Payload/KaiToApp.app/swift-crypto_Crypto.bundle/PrivacyInfo.xcprivacy ... 
+2025-03-18 03:45:02 +0000  398 bytes for ./Payload/KaiToApp.app/swift-crypto_Crypto.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/KaiToApp.app/swift-crypto_Crypto.bundle/Info.plist ... 
+2025-03-18 03:45:02 +0000  685 bytes for ./Payload/KaiToApp.app/swift-crypto_Crypto.bundle/Info.plist
+copying file ./Payload/KaiToApp.app/loading.gif ... 
+2025-03-18 03:45:02 +0000  96944 bytes for ./Payload/KaiToApp.app/loading.gif
+2025-03-18 03:45:02 +0000  copying file ./Payload/KaiToApp.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2025-03-18 03:45:02 +0000  2130 bytes for ./Payload/KaiToApp.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2025-03-18 03:45:02 +0000  copying file ./Payload/KaiToApp.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2025-03-18 03:45:02 +0000  924 bytes for ./Payload/KaiToApp.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/KaiToApp.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2025-03-18 03:45:02 +0000  258 bytes for ./Payload/KaiToApp.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2025-03-18 03:45:02 +0000  copying file ./Payload/KaiToApp.app/swift-nio-ssl_NIOSSL.bundle/PrivacyInfo.xcprivacy ... 
+398 bytes for ./Payload/KaiToApp.app/swift-nio-ssl_NIOSSL.bundle/PrivacyInfo.xcprivacy
+2025-03-18 03:45:02 +0000  copying file ./Payload/KaiToApp.app/swift-nio-ssl_NIOSSL.bundle/Info.plist ... 
+687 bytes for ./Payload/KaiToApp.app/swift-nio-ssl_NIOSSL.bundle/Info.plist
+2025-03-18 03:45:02 +0000  copying file ./Payload/KaiToApp.app/README.md ... 
+2025-03-18 03:45:02 +0000  3539 bytes for ./Payload/KaiToApp.app/README.md
+2025-03-18 03:45:02 +0000  copying file ./Payload/KaiToApp.app/KaiToApp ... 
+2025-03-18 03:45:03 +0000  14694112 bytes for ./Payload/KaiToApp.app/KaiToApp
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Assets.car ... 
+2025-03-18 03:45:03 +0000  4067560 bytes for ./Payload/KaiToApp.app/Assets.car
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/AppIcon76x76@2x~ipad.png ... 
+2025-03-18 03:45:03 +0000  3565 bytes for ./Payload/KaiToApp.app/AppIcon76x76@2x~ipad.png
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:45:03 +0000  1798 bytes for ./Payload/KaiToApp.app/Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources
+copying file ./Payload/KaiToApp.app/Frameworks/SwiftyJSON.framework/SwiftyJSON ... 
+2025-03-18 03:45:03 +0000  322512 bytes for ./Payload/KaiToApp.app/Frameworks/SwiftyJSON.framework/SwiftyJSON
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/SwiftyJSON.framework/Info.plist ... 
+792 bytes for ./Payload/KaiToApp.app/Frameworks/SwiftyJSON.framework/Info.plist
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/KTUtil.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:45:03 +0000  1798 bytes for ./Payload/KaiToApp.app/Frameworks/KTUtil.framework/_CodeSignature/CodeResources
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/KTUtil.framework/KTUtil ... 
+2025-03-18 03:45:03 +0000  440880 bytes for ./Payload/KaiToApp.app/Frameworks/KTUtil.framework/KTUtil
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/KTUtil.framework/Info.plist ... 
+784 bytes for ./Payload/KaiToApp.app/Frameworks/KTUtil.framework/Info.plist
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:45:03 +0000  1798 bytes for ./Payload/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework/_CodeSignature/CodeResources
+copying file ./Payload/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework/NVActivityIndicatorView ... 
+2025-03-18 03:45:03 +0000  341200 bytes for ./Payload/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework/NVActivityIndicatorView
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework/Info.plist ... 
+820 bytes for ./Payload/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework/Info.plist
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/Kingfisher.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:45:03 +0000  2312 bytes for ./Payload/KaiToApp.app/Frameworks/Kingfisher.framework/_CodeSignature/CodeResources
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/Kingfisher.framework/Kingfisher.bundle/PrivacyInfo.xcprivacy ... 
+707 bytes for ./Payload/KaiToApp.app/Frameworks/Kingfisher.framework/Kingfisher.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/KaiToApp.app/Frameworks/Kingfisher.framework/Kingfisher.bundle/Info.plist ... 
+2025-03-18 03:45:03 +0000  767 bytes for ./Payload/KaiToApp.app/Frameworks/Kingfisher.framework/Kingfisher.bundle/Info.plist
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/Kingfisher.framework/Kingfisher ... 
+2025-03-18 03:45:03 +0000  2371008 bytes for ./Payload/KaiToApp.app/Frameworks/Kingfisher.framework/Kingfisher
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/Kingfisher.framework/Info.plist ... 
+792 bytes for ./Payload/KaiToApp.app/Frameworks/Kingfisher.framework/Info.plist
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/KeychainAccess.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:45:03 +0000  1798 bytes for ./Payload/KaiToApp.app/Frameworks/KeychainAccess.framework/_CodeSignature/CodeResources
+copying file ./Payload/KaiToApp.app/Frameworks/KeychainAccess.framework/KeychainAccess ... 
+2025-03-18 03:45:03 +0000  377136 bytes for ./Payload/KaiToApp.app/Frameworks/KeychainAccess.framework/KeychainAccess
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/KeychainAccess.framework/Info.plist ... 
+800 bytes for ./Payload/KaiToApp.app/Frameworks/KeychainAccess.framework/Info.plist
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/RxRelay.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:45:03 +0000  1798 bytes for ./Payload/KaiToApp.app/Frameworks/RxRelay.framework/_CodeSignature/CodeResources
+copying file ./Payload/KaiToApp.app/Frameworks/RxRelay.framework/RxRelay ... 
+2025-03-18 03:45:03 +0000  140880 bytes for ./Payload/KaiToApp.app/Frameworks/RxRelay.framework/RxRelay
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/RxRelay.framework/Info.plist ... 
+2025-03-18 03:45:03 +0000  786 bytes for ./Payload/KaiToApp.app/Frameworks/RxRelay.framework/Info.plist
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/KTiOSApi.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:45:03 +0000  1798 bytes for ./Payload/KaiToApp.app/Frameworks/KTiOSApi.framework/_CodeSignature/CodeResources
+copying file ./Payload/KaiToApp.app/Frameworks/KTiOSApi.framework/KTiOSApi ... 
+2025-03-18 03:45:03 +0000  106464 bytes for ./Payload/KaiToApp.app/Frameworks/KTiOSApi.framework/KTiOSApi
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/KTiOSApi.framework/Info.plist ... 
+2025-03-18 03:45:03 +0000  788 bytes for ./Payload/KaiToApp.app/Frameworks/KTiOSApi.framework/Info.plist
+copying file ./Payload/KaiToApp.app/Frameworks/libswift_Concurrency.dylib ... 
+2025-03-18 03:45:03 +0000  557584 bytes for ./Payload/KaiToApp.app/Frameworks/libswift_Concurrency.dylib
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/KTChartKit.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:45:03 +0000  1798 bytes for ./Payload/KaiToApp.app/Frameworks/KTChartKit.framework/_CodeSignature/CodeResources
+copying file ./Payload/KaiToApp.app/Frameworks/KTChartKit.framework/KTChartKit ... 
+2025-03-18 03:45:03 +0000  1651152 bytes for ./Payload/KaiToApp.app/Frameworks/KTChartKit.framework/KTChartKit
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/KTChartKit.framework/Info.plist ... 
+792 bytes for ./Payload/KaiToApp.app/Frameworks/KTChartKit.framework/Info.plist
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/ESPullToRefresh.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:45:03 +0000  2356 bytes for ./Payload/KaiToApp.app/Frameworks/ESPullToRefresh.framework/_CodeSignature/CodeResources
+copying file ./Payload/KaiToApp.app/Frameworks/ESPullToRefresh.framework/ESPullToRefresh ... 
+2025-03-18 03:45:03 +0000  339424 bytes for ./Payload/KaiToApp.app/Frameworks/ESPullToRefresh.framework/ESPullToRefresh
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/icon_pull_to_refresh_arrow@2x.png ... 
+2025-03-18 03:45:03 +0000  918 bytes for ./Payload/KaiToApp.app/Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/icon_pull_to_refresh_arrow@2x.png
+copying file ./Payload/KaiToApp.app/Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/Info.plist ... 
+2025-03-18 03:45:03 +0000  779 bytes for ./Payload/KaiToApp.app/Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/Info.plist
+copying file ./Payload/KaiToApp.app/Frameworks/ESPullToRefresh.framework/Info.plist ... 
+2025-03-18 03:45:03 +0000  804 bytes for ./Payload/KaiToApp.app/Frameworks/ESPullToRefresh.framework/Info.plist
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/JTAppleCalendar.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:45:03 +0000  1798 bytes for ./Payload/KaiToApp.app/Frameworks/JTAppleCalendar.framework/_CodeSignature/CodeResources
+copying file ./Payload/KaiToApp.app/Frameworks/JTAppleCalendar.framework/JTAppleCalendar ... 
+2025-03-18 03:45:03 +0000  778640 bytes for ./Payload/KaiToApp.app/Frameworks/JTAppleCalendar.framework/JTAppleCalendar
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/JTAppleCalendar.framework/Info.plist ... 
+2025-03-18 03:45:03 +0000  804 bytes for ./Payload/KaiToApp.app/Frameworks/JTAppleCalendar.framework/Info.plist
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:45:03 +0000  2360 bytes for ./Payload/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources
+copying file ./Payload/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift.bundle/PrivacyInfo.xcprivacy ... 
+2025-03-18 03:45:03 +0000  373 bytes for ./Payload/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift.bundle/Info.plist ... 
+2025-03-18 03:45:03 +0000  793 bytes for ./Payload/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift.bundle/Info.plist
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift ... 
+2025-03-18 03:45:03 +0000  774352 bytes for ./Payload/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework/Info.plist ... 
+818 bytes for ./Payload/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework/Info.plist
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/SnapKit.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:45:03 +0000  2332 bytes for ./Payload/KaiToApp.app/Frameworks/SnapKit.framework/_CodeSignature/CodeResources
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/SnapKit.framework/SnapKit ... 
+2025-03-18 03:45:03 +0000  351152 bytes for ./Payload/KaiToApp.app/Frameworks/SnapKit.framework/SnapKit
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/SnapKit.framework/SnapKit_Privacy.bundle/PrivacyInfo.xcprivacy ... 
+2025-03-18 03:45:03 +0000  373 bytes for ./Payload/KaiToApp.app/Frameworks/SnapKit.framework/SnapKit_Privacy.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/KaiToApp.app/Frameworks/SnapKit.framework/SnapKit_Privacy.bundle/Info.plist ... 
+2025-03-18 03:45:03 +0000  779 bytes for ./Payload/KaiToApp.app/Frameworks/SnapKit.framework/SnapKit_Privacy.bundle/Info.plist
+copying file ./Payload/KaiToApp.app/Frameworks/SnapKit.framework/Info.plist ... 
+2025-03-18 03:45:03 +0000  786 bytes for ./Payload/KaiToApp.app/Frameworks/SnapKit.framework/Info.plist
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:45:03 +0000  2308 bytes for ./Payload/KaiToApp.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+copying file ./Payload/KaiToApp.app/Frameworks/Alamofire.framework/Alamofire ... 
+2025-03-18 03:45:03 +0000  2857312 bytes for ./Payload/KaiToApp.app/Frameworks/Alamofire.framework/Alamofire
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/Alamofire.framework/Alamofire.bundle/PrivacyInfo.xcprivacy ... 
+600 bytes for ./Payload/KaiToApp.app/Frameworks/Alamofire.framework/Alamofire.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/KaiToApp.app/Frameworks/Alamofire.framework/Alamofire.bundle/Info.plist ... 
+765 bytes for ./Payload/KaiToApp.app/Frameworks/Alamofire.framework/Alamofire.bundle/Info.plist
+copying file ./Payload/KaiToApp.app/Frameworks/Alamofire.framework/Info.plist ... 
+790 bytes for ./Payload/KaiToApp.app/Frameworks/Alamofire.framework/Info.plist
+copying file ./Payload/KaiToApp.app/Frameworks/JXSegmentedView.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:45:03 +0000  2332 bytes for ./Payload/KaiToApp.app/Frameworks/JXSegmentedView.framework/_CodeSignature/CodeResources
+copying file ./Payload/KaiToApp.app/Frameworks/JXSegmentedView.framework/JXSegmentedView ... 
+2025-03-18 03:45:03 +0000  915968 bytes for ./Payload/KaiToApp.app/Frameworks/JXSegmentedView.framework/JXSegmentedView
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/JXSegmentedView.framework/JXSegmentedView.bundle/PrivacyInfo.xcprivacy ... 
+2025-03-18 03:45:03 +0000  373 bytes for ./Payload/KaiToApp.app/Frameworks/JXSegmentedView.framework/JXSegmentedView.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/KaiToApp.app/Frameworks/JXSegmentedView.framework/JXSegmentedView.bundle/Info.plist ... 
+2025-03-18 03:45:03 +0000  779 bytes for ./Payload/KaiToApp.app/Frameworks/JXSegmentedView.framework/JXSegmentedView.bundle/Info.plist
+copying file ./Payload/KaiToApp.app/Frameworks/JXSegmentedView.framework/Info.plist ... 
+2025-03-18 03:45:03 +0000  804 bytes for ./Payload/KaiToApp.app/Frameworks/JXSegmentedView.framework/Info.plist
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/JXPagingView.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:45:03 +0000  2320 bytes for ./Payload/KaiToApp.app/Frameworks/JXPagingView.framework/_CodeSignature/CodeResources
+copying file ./Payload/KaiToApp.app/Frameworks/JXPagingView.framework/JXPagingView.bundle/PrivacyInfo.xcprivacy ... 
+2025-03-18 03:45:03 +0000  373 bytes for ./Payload/KaiToApp.app/Frameworks/JXPagingView.framework/JXPagingView.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/KaiToApp.app/Frameworks/JXPagingView.framework/JXPagingView.bundle/Info.plist ... 
+2025-03-18 03:45:03 +0000  771 bytes for ./Payload/KaiToApp.app/Frameworks/JXPagingView.framework/JXPagingView.bundle/Info.plist
+copying file ./Payload/KaiToApp.app/Frameworks/JXPagingView.framework/JXPagingView ... 
+2025-03-18 03:45:03 +0000  388880 bytes for ./Payload/KaiToApp.app/Frameworks/JXPagingView.framework/JXPagingView
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/JXPagingView.framework/Info.plist ... 
+2025-03-18 03:45:03 +0000  796 bytes for ./Payload/KaiToApp.app/Frameworks/JXPagingView.framework/Info.plist
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/Gifu.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/KaiToApp.app/Frameworks/Gifu.framework/_CodeSignature/CodeResources
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/Gifu.framework/Gifu ... 
+2025-03-18 03:45:03 +0000  190704 bytes for ./Payload/KaiToApp.app/Frameworks/Gifu.framework/Gifu
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/Gifu.framework/Info.plist ... 
+780 bytes for ./Payload/KaiToApp.app/Frameworks/Gifu.framework/Info.plist
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/RxCocoa.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:45:03 +0000  1798 bytes for ./Payload/KaiToApp.app/Frameworks/RxCocoa.framework/_CodeSignature/CodeResources
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/RxCocoa.framework/RxCocoa ... 
+2025-03-18 03:45:03 +0000  1440208 bytes for ./Payload/KaiToApp.app/Frameworks/RxCocoa.framework/RxCocoa
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/RxCocoa.framework/Info.plist ... 
+786 bytes for ./Payload/KaiToApp.app/Frameworks/RxCocoa.framework/Info.plist
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/RxSwift.framework/_CodeSignature/CodeResources ... 
+2025-03-18 03:45:03 +0000  1798 bytes for ./Payload/KaiToApp.app/Frameworks/RxSwift.framework/_CodeSignature/CodeResources
+copying file ./Payload/KaiToApp.app/Frameworks/RxSwift.framework/RxSwift ... 
+2025-03-18 03:45:03 +0000  2107200 bytes for ./Payload/KaiToApp.app/Frameworks/RxSwift.framework/RxSwift
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/Frameworks/RxSwift.framework/Info.plist ... 
+786 bytes for ./Payload/KaiToApp.app/Frameworks/RxSwift.framework/Info.plist
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/embedded.mobileprovision ... 
+2025-03-18 03:45:03 +0000  22886 bytes for ./Payload/KaiToApp.app/embedded.mobileprovision
+2025-03-18 03:45:03 +0000  copying file ./Payload/KaiToApp.app/swift-nio_NIOPosix.bundle/PrivacyInfo.xcprivacy ... 
+2025-03-18 03:45:03 +0000  599 bytes for ./Payload/KaiToApp.app/swift-nio_NIOPosix.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/KaiToApp.app/swift-nio_NIOPosix.bundle/Info.plist ... 
+2025-03-18 03:45:03 +0000  683 bytes for ./Payload/KaiToApp.app/swift-nio_NIOPosix.bundle/Info.plist
+copying file ./Payload/KaiToApp.app/Info.plist ... 
+2025-03-18 03:45:03 +0000  1759 bytes for ./Payload/KaiToApp.app/Info.plist
+copying file ./Payload/KaiToApp.app/PkgInfo ... 
+2025-03-18 03:45:03 +0000  8 bytes for ./Payload/KaiToApp.app/PkgInfo
+2025-03-18 03:45:03 +0000 [MT] /usr/bin/ditto exited with 0
+2025-03-18 03:45:03 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2025-03-18 03:45:03 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2025-03-18 03:45:03 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003ebb720:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KTChartKit.framework'>
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003ebbb80:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/libswift_Concurrency.dylib'>
+2025-03-18 03:45:03 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600003ebbb80:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/libswift_Concurrency.dylib'>
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003ebb5d0:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/JXPagingView.framework'>
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003ebba30:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/RxSwift.framework'>
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003ebb480:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/JTAppleCalendar.framework'>
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003ebb330:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/Alamofire.framework'>
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003ebb790:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KTUtil.framework'>
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003ebb640:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/Kingfisher.framework'>
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003ebbaa0:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/SnapKit.framework'>
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003ebb950:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/RxCocoa.framework'>
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003950200:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/NVActivityIndicatorView.framework'>
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003ebb800:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KTiOSApi.framework'>
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003ebb3a0:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/ESPullToRefresh.framework'>
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003045380:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/Gifu.framework'>
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003ebbb10:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/SwiftyJSON.framework'>
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003ebb6b0:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/JXSegmentedView.framework'>
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003ebb9c0:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/RxRelay.framework'>
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003ebb870:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/KeychainAccess.framework'>
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003951c80:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app/Frameworks/IQKeyboardManagerSwift.framework'>
+2025-03-18 03:45:03 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003053660:'/var/folders/c8/_pmcyjjd4mgb5d0mwrt5f32c0000gn/T/XcodeDistPipeline.~~~iyG0oM/Root/Payload/KaiToApp.app'>
+2025-03-18 03:45:03 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
