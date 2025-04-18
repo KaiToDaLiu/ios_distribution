@@ -18,7 +18,7 @@ class Info {
     let gitPageHome = "https://KaiToDaLiu.github.io/ios_distribution/"
     
     /// 2024_09_26_14_56_09
-    private var ipaDirName = ""
+    private var ipaDirName = "2025_04_18_20_38_09" // HERE!!
     /// 2024-09-26 14:56:09
     private var formatDate = ""
     /// Debug or Release
@@ -59,7 +59,7 @@ class Info {
         print("              Insert HTML:")
         print("=============================================")
         // 清单文件下载路径, 把这个文件地址生成二维码就可以使用iPhone相册扫码下载
-        self.ipaDirName = "2025_04_18_20_25_45"
+        // self.ipaDirName = "2025_04_18_20_25_45"
         let manifestFullPath = "itms-services:///?action=download-manifest&url=" + gitPageHome + "build/" + ipaDirName + "/manifest.plist"
         let saveFilePath = localBuildPath + ipaDirName + "/qrcode.jpg"
         QRCode().saveQRImage(from: manifestFullPath, path: saveFilePath) // convert from to qr image and save it to path
