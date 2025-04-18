@@ -59,6 +59,7 @@ class Info {
         print("              Insert HTML:")
         print("=============================================")
         // 清单文件下载路径, 把这个文件地址生成二维码就可以使用iPhone相册扫码下载
+        self.ipaDirName = "2025_04_18_20_25_45"
         let manifestFullPath = "itms-services:///?action=download-manifest&url=" + gitPageHome + "build/" + ipaDirName + "/manifest.plist"
         let saveFilePath = localBuildPath + ipaDirName + "/qrcode.jpg"
         QRCode().saveQRImage(from: manifestFullPath, path: saveFilePath) // convert from to qr image and save it to path
