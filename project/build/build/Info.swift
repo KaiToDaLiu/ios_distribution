@@ -18,29 +18,37 @@ class Info {
     let gitPageHome = "https://KaiToDaLiu.github.io/ios_distribution/"
     
     /// 2024_09_26_14_56_09
-    private var ipaDirName = "2025_09_02_13_52_09" // HERE!!
+    // private var ipaDirName = "2025_09_02_13_52_09" // HERE!!
     /// 2024-09-26 14:56:09
     private var formatDate = ""
     /// Debug or Release
     private var buildMode = ""
     
+    
+    lazy var ipaDirName: String = {
+        let date = Date()
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy_MM_dd_HH_mm_ss"
+        return dateFormatter.string(from: date)
+    }()
+    
     public func parse() {
         // 解析出日期和编译模式(Debug或Release)
-        let fileManager = FileManager.default
-        if fileManager.fileExists(atPath: xcodeBuildFilePath) {
-            do {
-                var text = try String(contentsOfFile: xcodeBuildFilePath, encoding: .utf8)
-                text = text.trimmingCharacters(in: .whitespacesAndNewlines) // Debug_2024_09_26_14_56_09
-                self.ipaDirName = text
-                let arr = text.components(separatedBy: "_")
-                assert(arr.count == 6)
-                self.formatDate = arr[0] + "-" + arr[1] + "-" + arr[2] + " " + arr[3] + ":" + arr[4] + ":" + arr[5] // 2024-09-26 14:56:09
-            } catch {
-                print("Error reading file: \(error)")
-            }
-        } else {
-            print("File does not exist")
-        }
+//        let fileManager = FileManager.default
+//        if fileManager.fileExists(atPath: xcodeBuildFilePath) {
+//            do {
+//                var text = try String(contentsOfFile: xcodeBuildFilePath, encoding: .utf8)
+//                text = text.trimmingCharacters(in: .whitespacesAndNewlines) // Debug_2024_09_26_14_56_09
+//                self.ipaDirName = text
+//                let arr = text.components(separatedBy: "_")
+//                assert(arr.count == 6)
+//                self.formatDate = arr[0] + "-" + arr[1] + "-" + arr[2] + " " + arr[3] + ":" + arr[4] + ":" + arr[5] // 2024-09-26 14:56:09
+//            } catch {
+//                print("Error reading file: \(error)")
+//            }
+//        } else {
+//            print("File does not exist")
+//        }
     }
     
     public func logArchiveInformation() {

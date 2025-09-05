@@ -12,6 +12,9 @@ func runUntilQuit() {
     print("Program started. Type 'q' to quit.")
     var shouldExit = false
 
+    let info = Info()
+    info.parse()
+    
     // Keep the program running in a loop
     while !shouldExit {
         // Prompt for user input
@@ -22,9 +25,6 @@ q. quit\n
 Input Numbers:
 """
         print(hintStr, terminator: "")
-        
-        let info = Info()
-        info.parse()
         
         // Capture input from the user
         if let input = readLine() {
